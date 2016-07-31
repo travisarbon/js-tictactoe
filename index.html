@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic-Tac-Toe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type =  "text/javascript" src = "script.js"></script>
+</head>
+<body id = "main">
+<div id = "top"><h2>Tic Tac Toe!</h2></div>
+<div id = "game" class = "container-fluid">
+    <div id = "backing">
+        <div id = "board">
+            <div id = "top-row" class = "row">
+                <div id = "top-left" class = "col-xs-4"></div>
+                <div id = "top-center" class = "col-xs-4"></div>
+                <div id = "top-right" class = "col-xs-4"></div>
+            </div>
+            <div id = "middle-row" class = "row">
+                <div id = "middle-left" class = "col-xs-4"></div>
+                <div id = "middle-center" class = "col-xs-4"></div>
+                <div id = "middle-right" class = "col-xs-4"></div>
+            </div>
+            <div id = "bottom-row" class = "row">
+                <div id = "bottom-left" class = "col-xs-4"></div>
+                <div id = "bottom-center" class = "col-xs-4"></div>
+                <div id = "bottom-right" class = "col-xs-4"></div>
+            </div>
+        </div>
+    </div>
+    <div id = "controls" class = "row">
+        <div id = "scoreboard" class = "col-xs-6"><p>Game in progress...</p></div>
+        <div id = "switch-piece" class = "col-xs-3">
+            <input id = "x-button" type="radio" name="piece" value="x" checked="checked"> X
+            <input id = "o-button" type="radio" name="piece" value="o"> O
+        </div>
+        <div id = "reset-button" class = "col-xs-2 btn">Reset</div>
+    </div>
+</div>
+<div id = "end">Coded by Travis Arbon</div>
+</body>
+</html>
